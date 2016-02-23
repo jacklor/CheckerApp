@@ -102,16 +102,18 @@
         }
     }
     if (self.gameManager.selectedPion && self.gameManager.selectedPion.row == indexPath.row && self.gameManager.selectedPion.section == indexPath.section)
+    {
         cell.piece.layer.borderWidth = 2.0;
+        cell.piece.layer.borderColor = [UIColor greenColor].CGColor;
+    }
     else
         cell.piece.layer.borderWidth = 0.0;
     for (NSIndexPath *jumpPion in self.gameManager.jumpOption)
     {
         if (jumpPion.section == indexPath.section && jumpPion.row == indexPath.row)
         {
-            [cell.direction setHidden:NO];
-            cell.direction.text = @"X";
-            cell.direction.textColor = [UIColor redColor];
+            cell.piece.layer.borderWidth = 2.0;
+            cell.piece.layer.borderColor = [UIColor redColor].CGColor;
         }
     }
     

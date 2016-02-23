@@ -57,11 +57,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ECAD0AD81C7BD88B00B52E68 = {
+		EC0D618B1C7CB61E00B8D884 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ECAD0B011C7BDCEF00B52E68 /* UIKit.framework */,
 				ECAD0AFF1C7BDCE900B52E68 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECAD0AD81C7BD88B00B52E68 = {
+			isa = PBXGroup;
+			children = (
 				ECAD0AE31C7BD88B00B52E68 /* CheckerApp */,
 				ECAD0AE21C7BD88B00B52E68 /* Products */,
 			);
@@ -78,6 +85,7 @@
 		ECAD0AE31C7BD88B00B52E68 /* CheckerApp */ = {
 			isa = PBXGroup;
 			children = (
+				EC0D618B1C7CB61E00B8D884 /* Frameworks */,
 				ECAD0B041C7BDFF800B52E68 /* Models */,
 				ECAD0B031C7BDFF200B52E68 /* Contents */,
 				ECAD0AFB1C7BDC5F00B52E68 /* ViewControllers */,
@@ -356,6 +364,7 @@
 				ECAD0AFA1C7BD88C00B52E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
