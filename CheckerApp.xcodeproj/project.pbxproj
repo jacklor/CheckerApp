@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAD0AE61C7BD88B00B52E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0AE51C7BD88B00B52E68 /* main.m */; };
+		ECAD0AE91C7BD88B00B52E68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0AE81C7BD88B00B52E68 /* AppDelegate.m */; };
+		ECAD0AEC1C7BD88B00B52E68 /* CheckerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0AEB1C7BD88B00B52E68 /* CheckerVC.m */; };
+		ECAD0AEF1C7BD88B00B52E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAD0AED1C7BD88B00B52E68 /* Main.storyboard */; };
+		ECAD0AF11C7BD88B00B52E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAD0AF01C7BD88B00B52E68 /* Assets.xcassets */; };
+		ECAD0AF41C7BD88B00B52E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAD0AF21C7BD88B00B52E68 /* LaunchScreen.storyboard */; };
+		ECAD0AFE1C7BDC8200B52E68 /* CheckerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0AFD1C7BDC8200B52E68 /* CheckerCell.m */; };
+		ECAD0B001C7BDCE900B52E68 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0AFF1C7BDCE900B52E68 /* QuartzCore.framework */; };
+		ECAD0B021C7BDCEF00B52E68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0B011C7BDCEF00B52E68 /* UIKit.framework */; };
+		ECAD0B071C7BE02500B52E68 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0B061C7BE02500B52E68 /* GameManager.m */; };
+		ECAD0B0A1C7BE06200B52E68 /* Pion.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0B091C7BE06200B52E68 /* Pion.m */; };
+		ECAD0B0D1C7C4E3A00B52E68 /* AIPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0B0C1C7C4E3A00B52E68 /* AIPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECAD0AE11C7BD88B00B52E68 /* CheckerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAD0AE51C7BD88B00B52E68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECAD0AE71C7BD88B00B52E68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECAD0AE81C7BD88B00B52E68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECAD0AEA1C7BD88B00B52E68 /* CheckerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckerVC.h; sourceTree = "<group>"; };
+		ECAD0AEB1C7BD88B00B52E68 /* CheckerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckerVC.m; sourceTree = "<group>"; };
+		ECAD0AEE1C7BD88B00B52E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECAD0AF01C7BD88B00B52E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECAD0AF31C7BD88B00B52E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECAD0AF51C7BD88C00B52E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAD0AFC1C7BDC8200B52E68 /* CheckerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckerCell.h; sourceTree = "<group>"; };
+		ECAD0AFD1C7BDC8200B52E68 /* CheckerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckerCell.m; sourceTree = "<group>"; };
+		ECAD0AFF1C7BDCE900B52E68 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ECAD0B011C7BDCEF00B52E68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECAD0B051C7BE02500B52E68 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		ECAD0B061C7BE02500B52E68 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
+		ECAD0B081C7BE06200B52E68 /* Pion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pion.h; sourceTree = "<group>"; };
+		ECAD0B091C7BE06200B52E68 /* Pion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pion.m; sourceTree = "<group>"; };
+		ECAD0B0B1C7C4E3A00B52E68 /* AIPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPlayer.h; sourceTree = "<group>"; };
+		ECAD0B0C1C7C4E3A00B52E68 /* AIPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAD0ADE1C7BD88B00B52E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAD0B021C7BDCEF00B52E68 /* UIKit.framework in Frameworks */,
+				ECAD0B001C7BDCE900B52E68 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAD0AD81C7BD88B00B52E68 = {
+			isa = PBXGroup;
+			children = (
+				ECAD0B011C7BDCEF00B52E68 /* UIKit.framework */,
+				ECAD0AFF1C7BDCE900B52E68 /* QuartzCore.framework */,
+				ECAD0AE31C7BD88B00B52E68 /* CheckerApp */,
+				ECAD0AE21C7BD88B00B52E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAD0AE21C7BD88B00B52E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD0AE11C7BD88B00B52E68 /* CheckerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECAD0AE31C7BD88B00B52E68 /* CheckerApp */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD0B041C7BDFF800B52E68 /* Models */,
+				ECAD0B031C7BDFF200B52E68 /* Contents */,
+				ECAD0AFB1C7BDC5F00B52E68 /* ViewControllers */,
+				ECAD0AE71C7BD88B00B52E68 /* AppDelegate.h */,
+				ECAD0AE81C7BD88B00B52E68 /* AppDelegate.m */,
+				ECAD0AED1C7BD88B00B52E68 /* Main.storyboard */,
+				ECAD0AF01C7BD88B00B52E68 /* Assets.xcassets */,
+				ECAD0AF21C7BD88B00B52E68 /* LaunchScreen.storyboard */,
+				ECAD0AF51C7BD88C00B52E68 /* Info.plist */,
+				ECAD0AE41C7BD88B00B52E68 /* Supporting Files */,
+			);
+			path = CheckerApp;
+			sourceTree = "<group>";
+		};
+		ECAD0AE41C7BD88B00B52E68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD0AE51C7BD88B00B52E68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECAD0AFB1C7BDC5F00B52E68 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD0AEA1C7BD88B00B52E68 /* CheckerVC.h */,
+				ECAD0AEB1C7BD88B00B52E68 /* CheckerVC.m */,
+				ECAD0AFC1C7BDC8200B52E68 /* CheckerCell.h */,
+				ECAD0AFD1C7BDC8200B52E68 /* CheckerCell.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ECAD0B031C7BDFF200B52E68 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD0B051C7BE02500B52E68 /* GameManager.h */,
+				ECAD0B061C7BE02500B52E68 /* GameManager.m */,
+				ECAD0B0B1C7C4E3A00B52E68 /* AIPlayer.h */,
+				ECAD0B0C1C7C4E3A00B52E68 /* AIPlayer.m */,
+			);
+			name = Contents;
+			sourceTree = "<group>";
+		};
+		ECAD0B041C7BDFF800B52E68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD0B081C7BE06200B52E68 /* Pion.h */,
+				ECAD0B091C7BE06200B52E68 /* Pion.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAD0AE01C7BD88B00B52E68 /* CheckerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAD0AF81C7BD88C00B52E68 /* Build configuration list for PBXNativeTarget "CheckerApp" */;
+			buildPhases = (
+				ECAD0ADD1C7BD88B00B52E68 /* Sources */,
+				ECAD0ADE1C7BD88B00B52E68 /* Frameworks */,
+				ECAD0ADF1C7BD88B00B52E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckerApp;
+			productName = CheckerApp;
+			productReference = ECAD0AE11C7BD88B00B52E68 /* CheckerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAD0AD91C7BD88B00B52E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jack Lor";
+				TargetAttributes = {
+					ECAD0AE01C7BD88B00B52E68 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ECAD0ADC1C7BD88B00B52E68 /* Build configuration list for PBXProject "CheckerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAD0AD81C7BD88B00B52E68;
+			productRefGroup = ECAD0AE21C7BD88B00B52E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAD0AE01C7BD88B00B52E68 /* CheckerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAD0ADF1C7BD88B00B52E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAD0AF41C7BD88B00B52E68 /* LaunchScreen.storyboard in Resources */,
+				ECAD0AF11C7BD88B00B52E68 /* Assets.xcassets in Resources */,
+				ECAD0AEF1C7BD88B00B52E68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAD0ADD1C7BD88B00B52E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAD0AEC1C7BD88B00B52E68 /* CheckerVC.m in Sources */,
+				ECAD0AFE1C7BDC8200B52E68 /* CheckerCell.m in Sources */,
+				ECAD0B071C7BE02500B52E68 /* GameManager.m in Sources */,
+				ECAD0B0A1C7BE06200B52E68 /* Pion.m in Sources */,
+				ECAD0B0D1C7C4E3A00B52E68 /* AIPlayer.m in Sources */,
+				ECAD0AE91C7BD88B00B52E68 /* AppDelegate.m in Sources */,
+				ECAD0AE61C7BD88B00B52E68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECAD0AED1C7BD88B00B52E68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAD0AEE1C7BD88B00B52E68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECAD0AF21C7BD88B00B52E68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAD0AF31C7BD88B00B52E68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECAD0AF61C7BD88C00B52E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECAD0AF71C7BD88C00B52E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAD0AF91C7BD88C00B52E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jacklor.CheckerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECAD0AFA1C7BD88C00B52E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jacklor.CheckerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAD0ADC1C7BD88B00B52E68 /* Build configuration list for PBXProject "CheckerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD0AF61C7BD88C00B52E68 /* Debug */,
+				ECAD0AF71C7BD88C00B52E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAD0AF81C7BD88C00B52E68 /* Build configuration list for PBXNativeTarget "CheckerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD0AF91C7BD88C00B52E68 /* Debug */,
+				ECAD0AFA1C7BD88C00B52E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAD0AD91C7BD88B00B52E68 /* Project object */;
+}
